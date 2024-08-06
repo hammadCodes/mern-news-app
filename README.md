@@ -6,7 +6,7 @@ This is a news website built using the MERN stack (MongoDB, Express, React, Node
 
 To use the website, follow these steps:
 
-1. Start the server: `nodemon app.js`
+1. Start the server: `nodemon app.js` 
 2. You need to install dependecies
 2. Start the client: `cd client && npm start`
 
