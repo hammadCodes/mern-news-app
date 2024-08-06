@@ -13,7 +13,7 @@ function Logout() {
                 Accept: "application/json",
                 "Content-type": "applications/json"
 
-            },
+            }, 
             credentials: "include"
         }).then((res) => {
             navigate('/login', { replace: true });
