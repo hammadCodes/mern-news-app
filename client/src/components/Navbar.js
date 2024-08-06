@@ -31,7 +31,7 @@ function Navbar() {
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
-                    <div className="navbar-brand">Hammad Times</div>
+                    <div className="navbar-brand"><img width="50px" src='https://hammadcodes.com/static/media/logo.4c296e8e.png'/></div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

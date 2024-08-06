@@ -39,7 +39,7 @@ function News(props) {
     <>
       <h1 className="news-title text-center mt-4">Top Stories</h1>
       <div className="container my-3">
-        <form className="d-flex" role="search" onSubmit={searchQuery}>
+        <form className="d-flex search-main" role="search" onSubmit={searchQuery}>
           <input className="form-control me-2" type="search" placeholder="Search latest topics" aria-label="Search" value={search} onChange={handleSearch} />
           <button className="btn btn-outline-success" type="submit">Search</button>
         </form>
