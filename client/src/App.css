@@ -41,7 +41,7 @@
 }
 .news-container {
   display: grid !important;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr ;
   gap: 1rem;
   margin: 0 !important;
 }
@@ -51,6 +51,11 @@
   margin: 0 !important;
 }
 @media screen and (min-width: 768px) {
+  .news-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1024px) {
   .news-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
