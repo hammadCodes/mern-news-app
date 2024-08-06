@@ -58,7 +58,7 @@ function Navbar() {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/profile">Your Profile</Link>
                             </li>
-                        </ul>
+                        </ul> 
 
                         <div className="d-flex" role="search">
                             <RenderMenu />
