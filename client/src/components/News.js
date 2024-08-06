@@ -10,7 +10,7 @@ function News(props) {
   const [loading, setloading] = useState(true);
 
   const handleSearch = (e) => {
-    search = e.target.value
+    search = e.target.value  
     setsearch(search);
   }
 
