@@ -60,35 +60,3 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
-.navbar {
-  background: black !important;
-}
-.navbar * {
-  color: white !important;
-}
-.image-src-container {
-  position: relative;
-  padding-bottom: 62.5%;
-}
-
-.image-src-container img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-h5.card-title {
-  font-weight: 600;
-  font-size: 20px;
-}
-
-p.card-text {
-  font-size: 14px;
-}
-.search-main {
-  margin-bottom: 3rem;
-}
-.news-title {
-  margin: 2rem 0 !important;
-}
